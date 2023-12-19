@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Print Greeting
-         run: echo "!Hello Morning Mano!"
-       - name: Print GoodBye
-         run: echo "${{ toJSON(github) }}"
+         run: echo "!Hello Morning Mano!"     
+  secondjob:
+     runs-on: ubuntu-latest
+     steps:
+        - name: Print GoodBye
+          run: echo "${{ toJSON(github) }}"
