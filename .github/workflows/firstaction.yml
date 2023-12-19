@@ -7,4 +7,4 @@ jobs:
        - name: Print Greeting
          run: echo "!Hello Morning Mano!"
        - name: Print GoodBye
-         run: echo "GoodBye!!!"
+         run: echo "{{ github }}"
